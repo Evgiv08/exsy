@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="head_menu">
+			<h2><span>Богдановский</span>карьер</h2>
+			<div class="head_menu_link">
+				<a href=".info">Производство</a>
+				<a href="#googlemaps">Адрес КАРЬЕРА</a>
+				<a href="#" id="go" class="head_menu_link_btn">Заказать звонок</a>
+				<div id="modal_form">
+					<span id="modal_close"><img src="img/close.svg" alt="close window"></span>
+					<form action="#">
+						<input type="text" placeholder="Ваше имя" class="inputname">
+						<input type="number" placeholder="Номер телефона. +38..." class="inputnumber">
+						<input type="button" value="Отправить" class="sendform">
+						<p class="alert">Введите Ваше имя и номер телефона</p>
+					</form>
+				</div>
+				<div id="overlay"></div>
+			</div>
+		</div>
+		<div class="slider">
+			<div class="slide">
+				<img src="img/slide1.jpg" alt="slide1">
+			</div>
+			<div class="slide">
+				<img src="img/slide2.jpg" alt="slide2">
+			</div>
+		</div>
+	</header>
+	<div class="info">
+		<section>
+			<h3>Производим и продаем щебень</h3>
+			<p>Площадь участка 96,1 га. Щебень и гравий из плотных пород для строительных работ. Прочность соответствует марке 800 (ДР-12). Запасы по гравию 28 %. Пески и пески-отсевы Богдановского-2 участка могут быть использованы в качестве строительного и дорожного материала. Мощность толщи 12-22,1 метра. Уровень грунтовых вод расположен ниже подошвы полезной толщи. Концентрация радионуклидов соответствует 1 классу СП 2.6.1.758-99.</p>
+			<p><span>Щебень 20×40</span> пригоден в производстве бетона и изготовлении конструкций из него, для дорожного строительства при закладке фундамента зданий, при возведении производственных всех видов сооружений и др.</p>
+		</section>
+		<section>
+			<h3 class="adress">Адрес карьера</h3>
+			<p><img src="img/location.svg" alt="location">поселок Ханино, Суворовский район, Тульская область, Россия</p> 
+		</section>
+		<section class="contacts">
+			<h3>контакты</h3>
+			<p>Звоните:</p>
+			<span>8(800)555-93-99</span>
+			<span>8(495)638-55-85</span>
+		</section>
+	</div>
+	<div id="googlemaps">
+	</div>
+	<footer>
+		<p>© 2015, Copyright </p>
+	</footer>
+	<script src="https://maps.googleapis.com/maps/api/js?AIzaSyBN_BcT9zj8l80ABl1GIrJ8jZM1zESf9hk=YOUR_API_KEY&callback=initMap" async defer>
+	</script>
+	<script src="javascript/jquery.js"></script>
+	<script src="javascript/slick.min.js"></script>
+	<script src="javascript/js.js"></script>
+</body>
+</html> 
