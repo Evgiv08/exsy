@@ -429,10 +429,9 @@ footer p {
     background-image: url("../img/slide1.jpg");
     -webkit-background-size: cover;
     background-size: cover;
-    background-position: left -85px;
+    background-position: left -35px;
     background-repeat: no-repeat;
     min-height: 200px;
-    min-width: 480px;
   }
 
   header .head_menu {
